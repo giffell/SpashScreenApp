@@ -1,0 +1,15 @@
+<resources>
+
+    <style name="Theme.SplashScreenApp" parent="Theme.AppCompat.DayNight.DarkActionBar">
+        <item name="colorPrimary">@color/purple_500</item>
+        <item name="colorAccent">@color/teal_200</item>
+    </style>
+
+    <style name="Theme.SplashScreenApp.Starting" parent="Theme.SplashScreen">
+        <item name="windowSplashScreenBackground">@color/teal_200</item>
+        <item name="postSplashScreenTheme">@style/Theme.SplashScreenApp</item>
+        <item name="windowSplashScreenAnimatedIcon">@mipmap/ic_launcher</item>
+        <item name="windowSplashScreenAnimationDuration">1000</item>
+    </style>
+
+</resources>
